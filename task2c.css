@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.all-containers {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+}
+
+.the-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.5rem;
+    padding: 1rem;
+    background-color: rgb(239, 238, 238);
+}
+
+.amount {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: rem;
+}
+
+.amount-percent {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 3rem;
+}
+
+.percent {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: middle;
+    align-items: start;
+    column-gap: 0.3rem;
+    border-radius: 0.5rem;
+    padding: 1rem 0.3rem;
+}
+
+
+.arrow {
+    color: green;
+}
+
+.uparrow {
+    color: red;
+}
+
+.twelve {
+    color: rgb(25, 182, 75);
+    font-size: 0.8rem;
+}
+
+.firstprice {
+    width: fit-content;
+    height: auto;
+    font-size: 0.9rem;
+    color: rgb(78, 78, 202);
+}
+.secondprice {
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.total p{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.four {
+    color: red;
+}

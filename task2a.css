@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    background-color: #e7e7e7;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    column-gap: 0.3rem;
+}
+
+.all-container {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+
+.rate {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.rooe h1 {
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: grey;
+    line-height: -0.003rem;
+}
+
+.percent h3 {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: grey;
+}
+
+.percent-red h3 {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: red;
+
+}
+
+.amount h2 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+

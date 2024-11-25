@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.big-container {
+    width: 60%;
+    height: auto;
+    padding: 4rem 2rem;
+    display: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 3rem;
+    background-color: rgb(17,24,39);
+    margin: 1rem 15rem;
+
+}
+
+.pricinghead {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+
+.pricing {
+    width: fit-content;
+    height: auto;
+    font-size: 0.6rem;
+    color: rgb(110, 110, 240);
+    font-weight: 700;
+}
+
+.grows {
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+}
+
+.choose p {
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+    color: rgb(184, 178, 178);
+    font-weight: 400;
+}
+
+.button-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    column-gap: 0.5rem;
+    background-color: rgb(17,24,39);
+    border-radius: 0.5rem;
+}
+
+.big-button {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1rem;
+    column-gap: 0.3rem;
+    background-color: rgb(29,36,50);
+    border-radius: 0.7rem;
+}
+
+.monthly-button button {
+    width: fit-content;
+    height: auto;
+    color: white;
+    background-color: rgb(99,102,241);
+    border-radius: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.5rem;
+    font-weight: 500;
+    outline: none;
+    border: none;
+}
+
+.annually-button button{
+    width: fit-content;
+    height: auto;
+    background-color:  rgb(29,36,50);
+    color: white;
+    padding: 0.3rem;
+    font-size: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    border: none;
+    outline: none;
+}
+
+.pricing-list-container {
+    width: fit-content;
+    height: auto;
+    padding: 1rem;
+}
+
+.price-containers {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+.first-list {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start; 
+    padding: 1.5rem 1rem 4.5rem;  
+    background-color: rgb(17,24,39);
+    border-style: solid;
+    border-color: rgb(47, 45, 45);
+    border-radius: 0.5rem;
+    border-width: 0.03rem;
+}
+
+.freelancer {
+    width: fit-content;
+    height: auto;
+    font-size: 0.5rem;
+    color: white;
+    font-weight: 600;
+    padding-top: 0.5rem;  
+    letter-spacing: 0.04rem; 
+}
+
+.essentials {
+    width: 100%;
+    height: auto;
+    font-size: 0.5rem;
+    font-weight: 400;
+    color: rgb(240, 236, 236);
+    font-weight: 300;
+    padding-top: 0.5rem;
+    letter-spacing: 0.03rem; 
+    line-height: 0.7rem;
+}
+
+.per-price {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start; 
+    column-gap: 0.2rem;
+    padding-top: 0.8rem;
+}
+
+.month {
+    padding-top: 1.5rem;
+}
+
+.plan {
+    width: 100%;
+    height: auto;
+    padding-top: 0.5rem;
+}
+
+.plan button {
+    width: fit-content;
+    height: auto;
+    padding: 0.5rem 3.5rem;
+    font-size: 0.5rem;
+    font-weight: 500;
+    background-color: rgb(41,48,61);
+    color: #ffffff;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.plan-2 {
+    width: 100%;
+    height: auto;
+    padding-top: 0.5rem;
+}
+
+.plan button {
+    width: fit-content;
+    height: auto;
+    padding: 0.5rem 3.5rem;
+    font-size: 0.5rem;
+    font-weight: 500;
+    background-color: rgb(41,48,61);
+    color: #ffffff;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.products-icon {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 0.4rem;
+    padding-top: 0.5rem;
+}
+
+.icon {
+    color: white;
+    font-size: 0.5rem;
+    font-weight: 70;
+}
+
+.products {
+    color: white;
+    font-size: 0.5rem;
+    font-weight: 300;
+    letter-spacing: 0.03rem;
+}
+
+.subscribers {
+    color: white;
+    font-size: 0.5rem;
+    font-weight: 300;
+    letter-spacing: 0.03rem;
+}
+
+.basic {
+    color: white;
+    font-size: 0.5rem;
+    font-weight: 300;
+    letter-spacing: 0.03rem;
+}
+
+.support {
+    color: white;
+    font-size: 0.5rem;
+    font-weight: 300;
+    letter-spacing: 0.03rem;
+}
+
+.marketing {
+        color: white;
+        font-size: 0.5rem;
+        font-weight: 300;
+        letter-spacing: 0.03rem;
+        padding: 0;
+    }
+
+.dollar h1{
+    color: white;
+}
+
+.month p {
+    color: white;
+    font-size: 0.5rem;
+}
+
+.second-list {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start; 
+    padding: 1rem 1rem 4rem;    
+    background-color: rgb(29,36,50);
+    border-style: solid;
+    border-color: rgb(99,102,241);
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+}
+
+.start-most {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.most-popular {
+    width: fit-content;
+    height: auto;
+}
+
+.most-popular button {
+    font-size: 0.4rem;
+    font-weight: 500;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.5rem;
+    background-color: rgb(99,102,241);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.plan-2 button{
+    padding: 0.5rem 3.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.5rem;
+    font-weight: 500;
+    background-color: rgb(99,102,241);
+    color: #ffffff;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.third-list {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start; 
+    padding: 1rem 1rem 2rem;  
+    background-color: rgb(17,24,39);
+    border-style: solid;
+    border-color: rgb(47, 45, 45);
+    border-radius: 0.5rem;
+    border-width: 0.03rem;
+}
+
+.plan-3 {
+    width: 100%;
+    height: auto;
+    padding-top: 0.5rem;
+}
+
+.plan-3 button {
+    padding: 0.5rem 3.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.5rem;
+    font-weight: 500;
+    background-color: rgb(41,48,61);
+    color: #ffffff;
+    border-radius: 0.3rem;
+    border: none;
+}
